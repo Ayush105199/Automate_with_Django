@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
-#proposed command =python mana
+#proposed command = python manage.py greeting john
+#proposed Output = Hi {Name},Good Morning
 class Command(BaseCommand):
     help="Greets the User"
 
