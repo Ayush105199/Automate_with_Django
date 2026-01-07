@@ -33,11 +33,6 @@ class Command(BaseCommand):
         
 
 
-
-
-
-
-
         # print(file_path,'r')
         with open(file_path,'r')as file:
             reader=csv.DictReader(file)
